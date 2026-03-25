@@ -1,0 +1,8 @@
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\bin\Debug\FileDataAnalyzer.exe.config
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\bin\Debug\FileDataAnalyzer.exe
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\bin\Debug\FileDataAnalyzer.pdb
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\obj\Debug\FileDataAnalyzer.csproj.AssemblyReference.cache
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\obj\Debug\FileDataAnalyzer.csproj.CoreCompileInputs.cache
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\obj\Debug\FileDataAnalyzer.exe
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\obj\Debug\FileDataAnalyzer.pdb
+D:\колледж\НСМК\3 курс\МДК 01.01\Модуль статистической обработки файловых данных\FileDataAnalyzer\FileDataAnalyzer\obj\Debug\FileDataAnalyzer.exe.config
