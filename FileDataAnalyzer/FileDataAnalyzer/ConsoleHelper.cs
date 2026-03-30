@@ -13,6 +13,7 @@ namespace FileDataAnalyzer
         public static void Exit()
         {
             Console.WriteLine("Нажмите любую клавишу для выхода...");
+            Console.ReadKey();
         }
     }
 }
