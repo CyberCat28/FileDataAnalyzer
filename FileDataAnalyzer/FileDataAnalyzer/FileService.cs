@@ -53,10 +53,8 @@ namespace FileDataAnalyzer
         /// <param name="numbers">Список чисел</param>
         public static void CreateFiles(List<double> numbers)
         {
-            // Получение пути к файлу программы
-            string executablePath = Assembly.GetExecutingAssembly().Location;
-            // Получение директории с исполняемым файлом
-            string directoryPath = Path.GetDirectoryName(executablePath);
+            // Путь для сохранения файлов (на рабочий стол)
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // Выборка только положительных и отрицательных чисел
             List<double> positiveNumbers = numbers.Where(n => n > 0).ToList();
@@ -65,7 +63,7 @@ namespace FileDataAnalyzer
             // Сохранение положительных чисел
             if (positiveNumbers.Count > 0)
             {
-                string positiveFilePath = Path.Combine(directoryPath, "positive_numbers.txt");
+                string positiveFilePath = Path.Combine(desktopPath, "positive_numbers.txt");
                 string positiveContent = string.Join(" ", positiveNumbers);
                 File.WriteAllText(positiveFilePath, positiveContent);
                 Console.WriteLine("[Готово] Положительные числа сохранены в positive_numbers.txt");
@@ -78,7 +76,7 @@ namespace FileDataAnalyzer
             // Сохранение отрицательных чисел
             if (negativeNumbers.Count > 0)
             {
-                string negativeFilePath = Path.Combine(directoryPath, "negative_numbers.txt");
+                string negativeFilePath = Path.Combine(desktopPath, "negative_numbers.txt");
                 string negativeContent = string.Join(" ", negativeNumbers);
                 File.WriteAllText(negativeFilePath, negativeContent);
                 Console.WriteLine("[Готово] Отрицательные числа сохранены в negative_numbers.txt");
